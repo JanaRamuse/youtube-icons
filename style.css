@@ -1,0 +1,11 @@
+.dropdown {
+    width: 40px;
+}
+
+body {
+    background: rgb(209, 119, 83);
+}
+
+.to-right {
+    transform:rotate(-90deg)
+}
