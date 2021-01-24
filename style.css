@@ -1,11 +1,154 @@
-.dropdown {
-    width: 40px;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
-    background: rgb(209, 119, 83);
+  background: #f1f1f1;
 }
 
-.to-right {
-    transform:rotate(-90deg)
+.top-menu {
+  background: #fff;
+  margin-bottom: 3.5714em;
+  display: flex;
+  justify-content: space-between;
 }
+
+.top-menu .menu {
+  text-decoration: none;  
+}
+.top-menu div {
+  display: inline-block;
+}
+.top-menu div form a svg {
+  display: flex;
+}
+
+.top-menu .menu:active {
+  background: rgba(0, 0, 0, 0.1); 
+}
+.top-menu .menu svg {
+  margin-left: 24px;
+  margin-top: 22px;
+  fill: #606060;
+}
+.top-menu .logo {
+  margin-left: 24px;
+  margin-top: 40px;
+}
+.top-menu .search form {
+  margin-top: 13px;
+  border-bottom-style: inherit;
+  width: 240px;
+  height: 30px;
+}
+.top-menu nav a {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-menu nav .notification svg {
+  margin-right: 40px;
+  margin-top: 18px;
+  fill: #606060;
+}
+.top-menu nav .grid svg {
+  margin-right: 23px;
+  margin-top: 18px;
+  fill: #606060;
+}
+.top-menu nav .camera svg {
+  margin-right: 23px;
+  margin-top: 20px;
+  fill: #606060;
+}
+
+.side-menu {
+  font-size: 14px;
+  background: #fff;
+  height: 100%;
+  width: 17.1429em;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height:1em
+  color: #000000;
+  display: block;
+  padding: 0.8571em 0;
+}
+.side-menu a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.side-menu a:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.side-menu a svg {
+  fill: #606060;
+}
+
+.side-menu a.active svg {
+  fill: #f00;
+}
+
+.side-menu a .icon {
+  margin-left: 1.8571em;
+  display: inline-block;
+  width: 1.4286em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.side-menu a .text {
+  display: inline-block;
+  margin-left: 1.8571em;
+  vertical-align: middle;
+}
+
+hr {
+  margin: 0.8571em 0;
+}
+
+
+}
+
+.fire {
+  width: 1em;
+}
+.home {
+width:  1.4286em;
+}
+.library {
+  width: 1em;
+}
+
+h1 {
+  margin-top: 16px;
+  margin-left: 24px;
+  color: #606060;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  font-size: 14px;
+  line-height: 16px
+  padding: 12px 0;
+}
+
+.side-menu .privacy {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 26px;
+  margin-top: 18px;
+  color: #606060;
+  width: 165px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .side-menu {
+    font-size: 11px;
+  }
